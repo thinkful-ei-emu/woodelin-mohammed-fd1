@@ -1,6 +1,6 @@
 
 
-function createGreeting(){
+function createGreeting(name,age){
 
     return ('Hi my name is woodelin and im 29 years old');
 
