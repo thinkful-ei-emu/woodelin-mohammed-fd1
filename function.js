@@ -2,10 +2,13 @@
 
 function createGreeting(name,age){
 
-    return ('Hi my name is woodelin and im 29 years old');
+    var yearOfBirth = 2016 - age;
+
+    return ('Hi my name is' + name + 'and im' + age + 'years old');
 
 
 }
 
-const greeting1 = createGreeting();
+const greeting1 = createGreeting('woodelin', 29);
 console.log(greeting1);
+
